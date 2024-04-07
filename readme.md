@@ -9,6 +9,9 @@ run: npm i
 
 The project should now be configurated properly.
 
+To run the Jest Unit tests, simply run:
+npm run test-unit
+
 Status badges:
 
 [![Automated Unit Testing](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml/badge.svg?branch=workflow)](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml)
