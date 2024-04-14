@@ -14,10 +14,18 @@
     "overrides": [
       {
         "files": ["**/*.test.js"],
+        "files": ["**/*.cy.js"],
         "env": { "jest": true },
+        "env": { "cypress/globals": true },
         "plugins": ["jest"],
+        "plugins": ["cypress"],
         "extends": ["plugin:jest/recommended"],
-        "rules": { "jest/prefer-expect-assertions": "off" }
+        "extends": ["plugin:cypress/recommended"],
+        "rules": { "jest/prefer-expect-assertions": "off" },
+        "rules": {
+          "cypress/no-unnecessary-waiting": "off",
+          "no-unused-vars": "off"
+        }
       }
     ],
     "parserOptions": {
