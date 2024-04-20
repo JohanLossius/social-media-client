@@ -3,29 +3,27 @@
         "browser": true,
         "es2021": true,
         "node": true
-        // Node true added by Johan manually 7.4.24
     },
     "extends": "eslint:recommended",
-    // Override added by Johan manually 6.4.24
-    "globals": {
-      "global": true
-    },
-    // Global added by Johan manually 7.4.24, to make ESLint not complain about global variables
     "overrides": [
       {
-        "files": ["**/*.test.js"],
-        "files": ["**/*.cy.js"],
-        "env": { "jest": true },
-        "env": { "cypress/globals": true },
-        "plugins": ["jest"],
-        "plugins": ["cypress"],
-        "extends": ["plugin:jest/recommended"],
-        "extends": ["plugin:cypress/recommended"],
-        "rules": { "jest/prefer-expect-assertions": "off" },
-        "rules": {
-          "cypress/no-unnecessary-waiting": "off",
-          "no-unused-vars": "off"
-        }
+        "files": ["**/*.test.js", "**/*.cy.js"],
+        "env":
+          { "jest": true,
+          "cypress/globals": true
+        },
+        "plugins": ["jest", "cypress"],
+        "extends": [
+          "plugin:jest/recommended",
+          "plugin:cypress/recommended"
+          ],
+        "rules":
+          { "jest/prefer-expect-assertions": "off",
+            "jest/expect-expect": "off",
+            "jest/valid-expect": "off",
+            "cypress/no-unnecessary-waiting": "off",
+            "no-unused-vars": "off"
+          }
       }
     ],
     "parserOptions": {
