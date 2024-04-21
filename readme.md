@@ -1,4 +1,6 @@
 # Status badges:
+
+Deploy static content to pages: (https://johanlossius.github.io/social-media-client/)
 [![Automated Unit Testing](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml/badge.svg?branch=workflow)](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml)
 
 # Project Requirements:
