@@ -1,8 +1,10 @@
 # Status badges:
 
 ## Deploy static content to pages:
-(https://johanlossius.github.io/social-media-client/)
-![Deploy Static Content to Pages](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![Deploy Static Content to Pages](https://github.com/JohanLossius/social-media-client/actions/workflows/pages.yml/badge.svg)
+
+## Pages deploys to:
+https://johanlossius.github.io/social-media-client/
 
 # Project Requirements:
 1. Project is configured to run Prettier on commit
