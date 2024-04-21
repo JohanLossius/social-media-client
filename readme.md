@@ -2,9 +2,7 @@
 
 ## Deploy static content to pages:
 (https://johanlossius.github.io/social-media-client/)
-https://img.shields.io/badge/Deploy_Static_Content_to_Pages-Passing-blue
-[![Deploy Static Content to Pages] (https://github.com/JohanLossius/social-media-client/blob/master/.github/workflows/pages.yml)](https://github.com/JohanLossius/social-media-client/blob/master/.github/workflows/pages.yml)
-[![Automated Unit Testing](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml/badge.svg?branch=workflow)](https://github.com/JohanLossius/social-media-client/actions/workflows/unit-test.yml)
+![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
 
 # Project Requirements:
 1. Project is configured to run Prettier on commit
