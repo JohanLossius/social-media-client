@@ -2,6 +2,7 @@
 
 ## Deploy static content to pages:
 ![Deploy Static Content to Pages](https://github.com/JohanLossius/social-media-client/actions/workflows/pages.yml/badge.svg)
+[![Code Review](https://github.com/JohanLossius/social-media-client/actions/workflows/gpt.yml/badge.svg)](https://github.com/JohanLossius/social-media-client/actions/workflows/gpt.yml)
 
 ## Pages deploys to:
 https://johanlossius.github.io/social-media-client/
