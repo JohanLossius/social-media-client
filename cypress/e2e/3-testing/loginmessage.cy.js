@@ -18,11 +18,13 @@ describe("invalid login attempts for the Noroff Social Media Application", () =>
     cy.get("#loginPassword").type(examplePassword);
     cy.get("#loginForm").get("#loginEmail").type(invalidFormatEmail);
     cy.get("#loginForm").find("button.btn-success").click();
-    cy.on("window:alert", (alertMessage) => {
-      expect(alertMessage).to.equal(
+    cy.get("#loginEmail")
+      .should(
+        "have.attr",
+        "title",
         "Only Noroff student or teacher emails are valid.",
-      );
-    });
+      )
+      .should("be.visible");
     cy.wait(2500);
   });
 
