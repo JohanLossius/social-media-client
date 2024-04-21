@@ -2,7 +2,7 @@
 
 ## Deploy static content to pages:
 (https://johanlossius.github.io/social-media-client/)
-![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![Deploy Static Content to Pages](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
 
 # Project Requirements:
 1. Project is configured to run Prettier on commit
