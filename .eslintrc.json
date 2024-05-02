@@ -7,7 +7,8 @@
     "extends": "eslint:recommended",
     "overrides": [
       {
-        "files": ["**/*.test.js", "**/*.cy.js"],
+        "files": ["**/*.test.js"],
+        "files": ["**/*.cy.js"]
         "env":
           { "jest": true,
           "cypress/globals": true
